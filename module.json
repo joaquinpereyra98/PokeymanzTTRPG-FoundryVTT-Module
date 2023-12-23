@@ -1,0 +1,39 @@
+{
+    "name":"PokeymanzTTRPG-FoundryVTT-Module",
+    "title":"Pokeymanz TTRPG for Savage World system",
+    "description":"A implementation of the PokeymanzTTPRG rules for Savage World System for FoundryVTT ",
+    "license":"MIT License",
+    "version":"0.0.1",
+    "library": false,
+    "compatibility":{
+        "minimum":"11",
+        "verified":"11",
+        "maximun":"11"
+    },
+    "authors":[
+        {
+            "name":"Joaquin Pereyra",
+            "email": "joaquinpereyra98@gmail.com",
+            "discord": "joaquinp98",
+            "url": "https://github.com/joaquinpereyra98"
+        }
+    ],
+    "relationships":{
+        "systems":[
+            {
+                "id": "swade",
+                "manifest": "https://gitlab.com/peginc/swade/-/blob/develop/src/system.json",
+                "compatibility":{
+                    "minimum":"3.2.0",
+                    "verified":"3.2.5"
+                }
+            }
+    ]
+    },
+    "scripts": [
+        "scripts/script.js"
+      ],
+      "styles": [
+        "styles/style.css"
+      ]
+}
