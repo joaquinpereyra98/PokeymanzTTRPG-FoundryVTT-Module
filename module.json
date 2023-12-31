@@ -22,6 +22,7 @@
         "systems":[
             {
                 "id": "swade",
+                "type": "system",
                 "manifest": "https://gitlab.com/peginc/swade/-/blob/develop/src/system.json",
                 "compatibility":{
                     "minimum":"3.2.0",
@@ -30,7 +31,7 @@
             }
     ]
     },
-    "scripts": [
+    "esmodules": [
         "scripts/script.js"
       ],
       "styles": [
